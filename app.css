@@ -22,3 +22,51 @@
     display: block;
 }
 
+main #txt-input {
+    display: block;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin: auto;
+    width: 70%;
+    height: 17vh;
+}
+
+.btn-first {
+    background: #f2c94c;
+    border: none;
+    padding: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.output-info {
+    font: 1em sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+.txt-output {
+    height: 17vh;
+    width: 70%;
+    border: black 2px solid;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    overflow: scroll;
+}
+
+footer {
+    background: #f2c94c;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+footer h2 {
+    text-align: center;
+}
