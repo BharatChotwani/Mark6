@@ -8,6 +8,11 @@ function getTranslationURL(text){
     return serverUrl + "?" + "text=" + text
 };
 
+funcction errorHandler(error) {
+    console.log("error occured", error)
+    alert("max limit reached")
+};
+
 function clickHandler(){
     var inputText = txtInput.value  // taking input
     
@@ -18,6 +23,7 @@ function clickHandler(){
          var translateText = json.contents.translated;
          txtOutput.innerText = translateText; // output
      })
+     .catch (errorHandler)
 };
 
 btnTranslate.addEventListener("click", clickHandler)
