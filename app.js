@@ -8,8 +8,8 @@ function getTranslationURL(text){
     return serverUrl + "?" + "text=" + text
 };
 
-funcction errorHandler(error) {
-    console.log("error occured", error)
+function errorHandler(error) {
+    console.log("error occured", error);
     alert("max limit reached")
 };
 
